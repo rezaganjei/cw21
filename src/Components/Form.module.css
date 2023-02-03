@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.5rem;
+}
+.editUser {
+  background-color: rgb(55, 178, 255);
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.cancelBtn {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: 1px solid black;
+}
+.buttonGroup {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+label {
+  font-weight: bold;
+}
